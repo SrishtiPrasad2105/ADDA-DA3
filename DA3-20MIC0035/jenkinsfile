@@ -8,7 +8,7 @@ checkout scm
 }
 stage ('Build') { 
 steps {
-sh 'echo "Building"'
+bat 'echo "Building"'
 }
 }
 }
